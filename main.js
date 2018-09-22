@@ -7,10 +7,10 @@ const main = document.getElementsByTagName('main')[0];
 
 // News API Data
 
-const apiKey = 'f701ba1dcf2e49fd9b561a0aeffcf8bc';
-const news24Url = 'https://newsapi.org/v2/top-headlines?sources=news24&apiKey=f701ba1dcf2e49fd9b561a0aeffcf8bc';
-const recodeUrl = 'https://newsapi.org/v2/top-headlines?sources=recode&apiKey=f701ba1dcf2e49fd9b561a0aeffcf8bc';
-const nextWebUrl = 'https://newsapi.org/v2/top-headlines?sources=the-next-web&apiKey=f701ba1dcf2e49fd9b561a0aeffcf8bc';
+const apiKey = 'YOUR API KEY';
+const news24Url = 'https://newsapi.org/v2/top-headlines?sources=news24&apiKey=YOUR API KEY';
+const recodeUrl = 'https://newsapi.org/v2/top-headlines?sources=recode&apiKey=YOUR API KEY';
+const nextWebUrl = 'https://newsapi.org/v2/top-headlines?sources=the-next-web&apiKey=YOUR API KEY';
 
 // Request News Function
 async function getNews (url) {
