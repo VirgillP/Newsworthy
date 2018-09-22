@@ -1,9 +1,9 @@
 const Twitter = {};
 
-const oauthConsumerKey = 'OSOpGbePGjbmndKEmNEKouJxU'; // Generated from apps.twitter.com
-const oauthConsumerSecret = 'lRp7NaAnYgHQuoH3YQHi0FlqefKvEKyZ2nhtqIas7y4mBQi8Qz'; // Generated from Keys and Access Tokens on apps.twitter.com
-const oauthToken = '977083459-rXF9gOuIJKksRcgHXWSBtI0Rz3t2HgOSg83ro2CV'; // Generated from Keys and Access Tokens on apps.twitter.com
-const oauthTokenSecret = '8noat42R9H6siNg0tago4mNLjOjPQ0hCdlJjJ9ScEaxZ8'; // Generated from Keys and Access Tokens on apps.twitter.com
+const oauthConsumerKey = 'YOUR TWITTER CONSUMER KEY'; // Generated from apps.twitter.com
+const oauthConsumerSecret = 'YOUR TWITTER CONSUMER SECRET'; // Generated from Keys and Access Tokens on apps.twitter.com
+const oauthToken = 'YOUR TWITTER AUTH KEY'; // Generated from Keys and Access Tokens on apps.twitter.com
+const oauthTokenSecret = 'YOUR TWITTER TOKEN KEY'; // Generated from Keys and Access Tokens on apps.twitter.com
 const oauthSignatureMethod = 'HMAC-SHA1';
 const oauthVersion = '1.0';
 const baseUrl = 'https://api.twitter.com/1.1/statuses/update.json';
